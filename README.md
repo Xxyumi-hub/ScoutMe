@@ -11,11 +11,11 @@ ScoutMe is a browser extensions that lets users put in a git commit hash URL and
  <li>Alternatively, open this page by clicking on the Chrome menu, hovering over More Tools then selecting Extensions</li>
 <li>Enable Developer Mode by clicking the toggle switch next to Developer mode in the top right</li>
 
-![Extensions 2022-06-13 at 9 23 54 PM](https://user-images.githubusercontent.com/53713122/173474274-49d3a866-3b6b-40ae-9e78-d4f1b9409433.jpg)
+![Extensions 2022-06-13 at 9 22 09 PM](https://user-images.githubusercontent.com/53713122/173474283-56973221-60a5-4d98-8145-dc6b42ca957c.jpg)
 
 <li>Click the Load unpacked button and select the extension directory (where you unzipped the repo folder)</li>
 
-![Extensions 2022-06-13 at 9 22 09 PM](https://user-images.githubusercontent.com/53713122/173474283-56973221-60a5-4d98-8145-dc6b42ca957c.jpg)
+![Extensions 2022-06-13 at 9 23 54 PM](https://user-images.githubusercontent.com/53713122/173474274-49d3a866-3b6b-40ae-9e78-d4f1b9409433.jpg)
 
 https://developer.chrome.com/docs/extensions/mv3/getstarted/
 
