@@ -24,7 +24,7 @@ https://developer.chrome.com/docs/extensions/mv3/getstarted/
 <h2>How it works:</h2>
 <ol>
  <li>Go to a commit on Github</li>
- <li> Open the extension, paste the full commit hash into the extension's popup, and press "Scout Me"</li>
+ <li> Open the extension, paste either the full SHA or the URL that has the full commit hash into the extension's popup, and press "Scout Me"</li>
  <li>The extension will then show the scout hash to use</li>
  </ol>
 
