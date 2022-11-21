@@ -27,7 +27,7 @@ function getHash() {
         const btn = document.createElement("button");
             btn.id = "Prompt-btn";
             document.body.appendChild(prompt)
-            prompt.innerHTML = `<b>Commit Hash:</b>${hash}<p style="font-size:.9em; line-height:.9em; margin: 0px;"><i >Please verify hash matches newest commit</i></p>`;
+            prompt.innerHTML = `<b>Commit Hash:</b> ${hash}<p style="font-size:.9em; line-height:.9em; margin: 0px;"><i >Please verify hash matches newest commit</i></p>`;
 
             
         //TODO: Find a way to close the box
