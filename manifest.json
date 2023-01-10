@@ -1,11 +1,19 @@
 {
-    "name": "Scout Me",
-    "description": "Scout Me lets users put in a git commit hash URL and get back the shortened scout",
-    "version": "1.0.0",
-    "manifest_version": 3,
-    "icons": { "16": "scout.png" },
-    "action": {
-      "default_popup": "scoutme.html"
+  "name": "Scout Me",
+  "description": "Scout Me lets users quickly get the commit hash for the currently viewed PR",
+  "version": "1.1.0",
+  "manifest_version": 3,
+  "icons": { "16": "scout.png" },
+  "action": {},
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "clipboardWrite"
+  ],
+  "background": {
+    "service_worker": "background.js"
   }
-  }
+}
+
 
