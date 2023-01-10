@@ -17,7 +17,7 @@ function getHash() {
     }
     
     //Create the pop-up prompt that will display the scout hash
-    function createPrompt(hash){
+    function createPrompt(hash8, hash9){
         const prompt = document.createElement("div");
             prompt.setAttribute("class",githubClasses)
             prompt.setAttribute("style",popupStyles)
@@ -27,7 +27,7 @@ function getHash() {
         const btn = document.createElement("button");
             btn.id = "Prompt-btn";
             document.body.appendChild(prompt)
-            prompt.innerHTML = `<b>Commit Hash:</b> ${hash}<p style="font-size:.9em; line-height:.9em; margin: 0px;"><i >Please verify hash matches newest commit</i></p>`;
+            prompt.innerHTML = `<p><b>Commit Hash:</b> ${hash9}</p><p style="font-size:.9em; line-height:.9em; margin: 0px;"><i >Please verify hash matches newest commit</i></p>`;
 
             
         //TODO: Find a way to close the box
@@ -59,8 +59,9 @@ function getHash() {
         //Pull the first 8 characters of the commit hash
         const regex = new RegExp('/commits/');
         const index = newestCommitURL.search(regex);
-        var hash = newestCommitURL.slice([index+9],[index + 17]);
-        createPrompt(hash);
+        var hash8 = newestCommitURL.slice([index+9],[index + 17]);
+        var hash9 = newestCommitURL.slice([index+9],[index + 18]);
+        createPrompt(hash8, hash9);
     }
 
 
